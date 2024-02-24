@@ -32,18 +32,12 @@ const Projects = () => {
                         <div className="text-neutral-700 text-lg text-center leading-relaxed mx-12">
                             An E-Commerce Platform for Selling and Buying AI Prompts with Image generation feature!
                         </div>
-                        <div className="flex flex-row text-md gap-2 md:gap-4">
+                        <div className="flex flex-row text-md gap-2 md:gap-4 w-full overflow-x-hidden">
                             <div className="bg-neutral-200 px-2 py-1 rounded-md hover:scale-105 transition">
                                 NextJS
                             </div>
                             <div className=" bg-neutral-200 px-2 py-1 rounded-sm hover:scale-105 transition">
-                                ReactJS
-                            </div>
-                            <div className=" bg-neutral-200 px-2 py-1 rounded-sm hover:scale-105 transition">
                                 Tailwind CSS
-                            </div>
-                            <div className=" bg-neutral-200 px-2 py-1 rounded-sm hover:scale-105 transition">
-                                Prisma
                             </div>
                             <div className=" bg-neutral-200 px-2 py-1 rounded-sm hover:scale-105 transition">
                                 MongoDB

@@ -13,7 +13,7 @@ const ContactUs = () => {
         sendEmail(data)
     }
     return (
-        <div className="mt-24 p-6 h-[880px] relative flex flex-col" id="contact">
+        <div className="mt-24  h-[880px] relative flex flex-col p-2 md:p-6" id="contact">
             <Image
                 src="/O9FG4W0.jpg"
                 alt="banner"
