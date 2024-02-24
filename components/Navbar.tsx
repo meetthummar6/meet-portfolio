@@ -11,26 +11,26 @@ const Navbar = (
             src="/logo.jfif"
             alt="logo"
             fill
-            className="absolute object-cover rounded-full ring ring-red-500"
+            className="absolute object-cover rounded-full ring ring-red-500 hover:ring-teal-500"
           />
         </div>
-        <div className="font-bold text-lg">
-          Meet Thummar
+        <div className="font-bold text-lg cursor-pointer hover:text-red-500">
+          <a href="/">Meet Thummar</a>
         </div>
       </div>
 
       <div className="hidden sm:flex justify-end items-center gap-10 text-lg">
-        <div className="font-bold">
-          Home
+        <div className="font-bold cursor-pointer hover:text-red-500">
+          <a href="/">Home</a>
         </div>
-        <div className="font-bold">
-          About
+        <div className="font-bold cursor-pointer hover:text-red-500">
+          <a href="/#about">About</a>
         </div>
-        <div className="font-bold">
-          Projects
+        <div className="font-bold cursor-pointer hover:text-red-500">
+          <a href="/#projects">Projects</a>
         </div>
-        <div className="font-bold">
-          Contact
+        <div className="font-bold cursor-pointer hover:text-red-500">
+          <a href="/#contact">Contact</a>
         </div>
       </div>
 

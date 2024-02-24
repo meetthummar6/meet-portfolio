@@ -17,22 +17,28 @@ const HeroPage = () => {
                     <div className="text-xl text-center leading-relaxed mx-5 sm:mx-40">
                         Creating beautiful and user-friendly websites that adapt seamlessly to any device, blending creativity with the latest tech trends
                     </div>
-                    <button className="mt-10 bg-red-600 text-white font-bold px-8 py-3 rounded-lg">
-                        PROJECTS
+                    <button className="mt-10 bg-red-600 text-white font-bold px-8 py-3 rounded-lg hover:-translate-y-1 transition">
+                        <a href="/resume_Meet Thummar.pdf" download>RESUME</a>
                     </button>
                     <div className="mt-10 hidden sm:flex gap-8 mx-auto">
-                        <Image
-                            src="/github.svg"
-                            alt="github"
-                            width={30}
-                            height={30}
-                        />
+                        <a href="https://github.com/MeetThummar">
+                            <Image
+                                src="/github.svg"
+                                alt="github"
+                                width={30}
+                                height={30}
+                                className="hover:scale-105 hover:-translate-y-1 transition"
+                            />
+                        </a>
+                        <a href="https://in.linkedin.com/in/meet-thummar-576200220">
                         <Image
                             src="/linkedin.svg"
                             alt="linkedin"
                             width={30}
                             height={30}
+                            className="hover:scale-105 hover:-translate-y-1 transition"
                         />
+                        </a>
                     </div>
                 </div>
             </div>

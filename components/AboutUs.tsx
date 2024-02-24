@@ -1,6 +1,6 @@
 
 const AboutUs = () => {
-    const skills=[
+    const skills = [
         "HTML",
         "CSS",
         "JavaScript",
@@ -8,9 +8,9 @@ const AboutUs = () => {
         "NextJS",
         "Tailwind",
         "Typescript",
+        "Supabase",
         "Git",
         "Github",
-        "C language",
         "C++",
         "Python",
     ]
@@ -22,16 +22,16 @@ const AboutUs = () => {
                 </div>
                 <div className="text-xl h-2 w-16 rounded-lg bg-red-600">
                 </div>
-                <div className="text-xl text-center leading-relaxed mx-8 sm:mx-72">
+                <div className="text-xl text-center leading-relaxed mx-8 md:mx-72 text-neutral-600">
                     Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
                 </div>
             </div>
-            <div className="mt-10 p-4 grid grid-cols-1 sm:grid-cols-2">
-                <div className="flex flex-col mx-auto justify-start gap-y-6 items-center">
+            <div className="mt-10 p-4 grid grid-cols-1 md:grid-cols-2">
+                <div className="flex flex-col justify-start gap-y-6 sm:mx-8 items-start">
                     <div className="text-2xl font-bold">
                         Know More about me
                     </div>
-                    <div className="leading-relaxed font-semibold flex flex-col mx-8 text-gray-600">
+                    <div className="leading-relaxed font-semibold flex flex-col  text-gray-600">
                         <div>
                             Hello there! I am Meet Thummar, a passionate and passionate <span className="text-red-600 text-xl font-bold">Full Stack Web Developer</span> who is eager to make a mark in the technology world.  I bring a fresh perspective and a solid foundation in web development to every project.
                         </div>
@@ -44,14 +44,17 @@ const AboutUs = () => {
                             Let's join together and embark on this exciting journey!
                         </div>
                     </div>
+                    <button className="bg-red-600 text-white font-bold px-8 py-3 rounded-lg hover:-translate-y-1 transition">
+                        <a href="/#contact">Contact</a>
+                    </button>
                 </div>
-                <div className="flex flex-col mx-auto justify-start gap-y-6 items-center">
+                <div className="flex flex-col mt-10 md:mt-0 mx-auto justify-start gap-y-6 items-center">
                     <div className="text-2xl font-bold">
                         My Skills
                     </div>
-                    <div className="grid grid-cols-4 text-center gap-4">
-                        {skills.map((skill)=>{
-                            return <div key={skill} className="text-xl font-semibold bg-red-600 text-white rounded-lg p-2">{skill}</div>
+                    <div className="grid   grid-cols-2    md:grid-cols-3  lg:grid-cols-4 text-center gap-4">
+                        {skills.map((skill) => {
+                            return <div key={skill} className="sm:text-md font-semibold bg-gray-400 text-neutral-700 rounded-lg p-2 hover:scale-110 transition shadow-sm">{skill}</div>
                         })}
                     </div>
                 </div>
