@@ -101,7 +101,7 @@ const Projects = () => {
                     </div>
                     <div className="relative min-h-56 w-full col-span-2 md:order-5 hover:-rotate-3 hover:scale-105 mt-24 md:mt-10 transition">
                         <Image
-                            src="/Movie-recommendation.jpeg"
+                            src="/movie-recc.jpeg"
                             alt="movie-recommendation"
                             fill
                             className="rounded-lg aspect-video absolute object-cover"

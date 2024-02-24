@@ -11,7 +11,7 @@ const HeroPage = () => {
                     className="absolute"
                 />
                 <div className="absolute w-full h-full flex flex-col mx-auto  justify-start gap-y-6 items-center">
-                    <div className="mt-[180px]  text-3xl font-black leading-relaxed">
+                    <div className="mt-[180px] text-xl md:text-3xl font-black leading-relaxed">
                         HEY, I&apos;M MEET THUMMAR
                     </div>
                     <div className="text-xl text-center leading-relaxed mx-5 sm:mx-40">
