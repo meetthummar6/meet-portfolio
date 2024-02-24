@@ -41,7 +41,7 @@ const AboutUs = () => {
                         <div>
                             As I embark on my professional journey as a Full Stack Developer, I am excited for opportunities to use my skills and creativity to create impactful solutions that create sustainable perspectives.
 
-                            Let's join together and embark on this exciting journey!
+                            Let&apos;s join together and embark on this exciting journey!
                         </div>
                     </div>
                     <button className="bg-red-600 text-white font-bold px-8 py-3 rounded-lg hover:-translate-y-1 transition">

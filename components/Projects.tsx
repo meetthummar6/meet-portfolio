@@ -60,7 +60,7 @@ const Projects = () => {
                             </a> 
                         </button>
                     </div>
-                    <div className="relative min-h-56 w-full col-span-2 md:order-4 hover:-rotate-3 hover:scale-105 mt-24 md:mt-0 transition">
+                    <div className="relative min-h-56 w-full col-span-2 md:order-4 hover:-rotate-3 hover:scale-105 mt-24 md:mt-10 transition">
                         <Image
                             src="/theme-bucket.jpeg"
                             alt="theme-bucket"
@@ -71,7 +71,7 @@ const Projects = () => {
 
                         </div>
                     </div>
-                    <div className="col-span-3 flex flex-col gap-y-4  w-full items-center mt-5 md:mt-0">
+                    <div className="col-span-3 flex flex-col gap-y-4  w-full items-center mt-5 md:mt-10">
                         <div className="text-2xl font-bold">
                             Theme Bucket
                         </div>
@@ -99,7 +99,7 @@ const Projects = () => {
                             </a>
                         </button>
                     </div>
-                    <div className="relative min-h-56 w-full col-span-2 md:order-5 hover:-rotate-3 hover:scale-105 mt-24 md:mt-0 transition">
+                    <div className="relative min-h-56 w-full col-span-2 md:order-5 hover:-rotate-3 hover:scale-105 mt-24 md:mt-10 transition">
                         <Image
                             src="/Movie-recommendation.jpeg"
                             alt="movie-recommendation"
@@ -110,7 +110,7 @@ const Projects = () => {
 
                         </div>
                     </div>
-                    <div className="col-span-3 flex flex-col gap-y-4 md:order-6 w-full items-center mt-5 md:mt-0">
+                    <div className="col-span-3 flex flex-col gap-y-4 md:order-6 w-full items-center mt-5 md:mt-10">
                         <div className="text-2xl font-bold">
                             Movie Recommendation System
                         </div>
