@@ -32,7 +32,7 @@ const Projects = () => {
                         <div className="text-neutral-700 text-lg text-center leading-relaxed mx-12">
                             An E-Commerce Platform for Selling and Buying AI Prompts with Image generation feature!
                         </div>
-                        <div className="flex flex-row text-md gap-2 md:gap-4 w-full overflow-x-hidden">
+                        <div className="flex flex-row text-md gap-2 md:gap-4">
                             <div className="bg-neutral-200 px-2 py-1 rounded-md hover:scale-105 transition">
                                 NextJS
                             </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                             </a> 
                         </button>
                     </div>
-                    <div className="relative min-h-56 w-full col-span-2 md:order-4 hover:-rotate-3 hover:scale-105 mt-24 md:mt-10 transition">
+                    <div className="relative min-h-56 w-full col-span-2 md:order-4 hover:rotate-3 hover:scale-105 mt-24 md:mt-10 transition">
                         <Image
                             src="/theme-bucket.jpeg"
                             alt="theme-bucket"
